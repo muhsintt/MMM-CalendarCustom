@@ -28,7 +28,9 @@ Module.register("MMM-CalendarExt3", {
       day: "numeric"
     },
     eventTimeOptions: {
-      timeStyle: "short"
+      hour: "numeric",
+      minute: "2-digit",
+      hour12: true
     },
     headerWeekDayOptions: {
       weekday: "long"
