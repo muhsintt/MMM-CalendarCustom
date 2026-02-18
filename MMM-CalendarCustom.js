@@ -6,7 +6,7 @@ Even though `.prototype.hasOwnProperty` is not recommended, it's the only way to
 console.log(Object.prototype.hasOwnProperty.call(HTMLElement, "popover")) // false
 console.log(Object.hasOwn(HTMLElement, "popover")) // false
 console.log(HTMLElement.prototype.showPopover === 'function') // false
-consoe.log(HTMLElement.prototype.hasOwnProperty("popover")) // true
+console.log(HTMLElement.prototype.hasOwnProperty("popover")) // true
 */
 
 if (!popoverSupported) console.info("This browser doesn't support popover yet. Update your system.")
