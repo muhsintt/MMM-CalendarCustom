@@ -59,7 +59,7 @@ const config = {
       }
     },
     {
-      module: "MMM-CalendarExt3",
+      module: "MMM-CalendarCustom",
       position: "bottom_bar",
       title: "my calendars",
       config: {

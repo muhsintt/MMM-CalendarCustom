@@ -2,7 +2,7 @@ const test = require("node:test")
 const assert = require("node:assert/strict")
 
 const loadModuleDefinition = ({ mmConfig } = {}) => {
-  delete require.cache[require.resolve("../../MMM-CalendarExt3.js")]
+  delete require.cache[require.resolve("../../MMM-CalendarCustom.js")]
 
   let registered
 
@@ -14,7 +14,7 @@ const loadModuleDefinition = ({ mmConfig } = {}) => {
     }
   }
 
-  require("../../MMM-CalendarExt3.js")
+  require("../../MMM-CalendarCustom.js")
 
   assert.ok(registered, "Module should be registered")
   return registered

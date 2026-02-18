@@ -1,6 +1,6 @@
-# MMM-CalendarExt3
+# MMM-CalendarCustom
 
-**MMM-CalendarExt3** is a lightweight calendar module for [MagicMirror²](https://magicmirror.builders/) with week/month views, weather integration, and interactive popovers.
+**MMM-CalendarCustom** is a lightweight calendar module for [MagicMirror²](https://magicmirror.builders/) with week/month views, weather integration, and interactive popovers.
 
 ## Screenshot
 
@@ -32,8 +32,8 @@ The previous module, `MMM-CalendarExt2`, was always notorious for its difficulty
 
 ```sh
 cd ~/MagicMirror/modules
-git clone https://github.com/MMRIZE/MMM-CalendarExt3
-cd MMM-CalendarExt3
+git clone https://github.com/yourusername/MMM-CalendarCustom
+cd MMM-CalendarCustom
 npm ci
 git submodule update --init --recursive
 ```
@@ -43,7 +43,7 @@ git submodule update --init --recursive
 ### Update
 
 ```sh
-cd ~/MagicMirror/modules/MMM-CalendarExt3
+cd ~/MagicMirror/modules/MMM-CalendarCustom
 git pull
 npm ci
 ```
@@ -53,7 +53,7 @@ npm ci
 When some `submodule` seems not installed and updated properly, try this.
 
 ```sh
-cd ~/MagicMirror/modules/MMM-CalendarExt3
+cd ~/MagicMirror/modules/MMM-CalendarCustom
 git submodule update --init --recursive
 ```
 
@@ -63,7 +63,7 @@ Anyway, even this simplest will work.
 
 ```js
     {
-      module: "MMM-CalendarExt3",
+      module: "MMM-CalendarCustom",
       position: "bottom_bar",
     },
 ```
@@ -72,7 +72,7 @@ More conventional;
 
 ```js
     {
-      module: "MMM-CalendarExt3",
+      module: "MMM-CalendarCustom",
       position: "bottom_bar",
       title: "",
       config: {
@@ -536,24 +536,25 @@ weatherLocationName: 'New York',
 ## Not the bug, but...
 
 - The default `calendar` module cannot emit the exact starting time of `multidays-fullday-event which is passing current moment`. Always it starts from today despite of original event starting time. So this module displays these kinds of multidays-fullday-event weirdly.
-- I'll add <del>`TimeLine`</del>([MMM-CalendarExt3Timeline](https://github.com/MMRIZE/MMM-CalendarExt3Timeline) and `TimeTable` views/extended modules in future.
+- I'll add <del>`TimeLine`</del>([Original MMM-CalendarExt3Timeline](https://github.com/MMRIZE/MMM-CalendarExt3Timeline)) and `TimeTable` views/extended modules in future.
 
 ## More Info
 
-- Discussion board: https://github.com/MMRIZE/MMM-CalendarExt3/discussions
-- Bug Report: https://github.com/MMRIZE/MMM-CalendarExt3/issues
-- Examples, Tips, and other info WIKI: https://github.com/MMRIZE/MMM-CalendarExt3/wiki
+- Discussion board: https://github.com/yourusername/MMM-CalendarCustom/discussions
+- Bug Report: https://github.com/yourusername/MMM-CalendarCustom/issues
+- Examples, Tips, and other info WIKI: https://github.com/yourusername/MMM-CalendarCustom/wiki
 
 ## Siblings
 
-- [MMM-CalendarExt3](https://github.com/MMRIZE/MMM-CalendarExt3)
+- [MMM-CalendarCustom](https://github.com/yourusername/MMM-CalendarCustom) (this module)
+- [Original MMM-CalendarExt3](https://github.com/MMRIZE/MMM-CalendarExt3)
 - [MMM-CalendarExt3Agenda](https://github.com/MMRIZE/MMM-CalendarExt3Agenda)
 - [MMM-CalendarExt3Timeline](https://github.com/MMRIZE/MMM-CalendarExt3Timeline)
 - [MMM-CalendarExt3Journal](https://github.com/MMRIZE/MMM-CalendarExt3Journal)
 
 ## Contributing
 
-If you find any problems, bugs or have questions, please [open a GitHub issue](https://github.com/MMRIZE/MMM-CalendarExt3/issues) in this repository.
+If you find any problems, bugs or have questions, please [open a GitHub issue](https://github.com/yourusername/MMM-CalendarCustom/issues) in this repository.
 
 Pull requests are of course also very welcome 🙂
 

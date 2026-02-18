@@ -1,27 +1,27 @@
 {
-  "name": "mmm-calendarext3",
+  "name": "mmm-calendarcustom",
   "version": "1.11.3",
-  "description": "MagicMirror module for calendar view",
+  "description": "MagicMirror custom calendar module",
   "keywords": [
     "MM",
     "MagicMirror",
     "calendar",
-    "CALEXT3"
+    "CALCUSTOM"
   ],
-  "homepage": "https://github.com/MMRIZE/MMM-CalendarExt3#readme",
+  "homepage": "https://github.com/yourusername/MMM-CalendarCustom#readme",
   "bugs": {
-    "url": "https://github.com/MMRIZE/MMM-CalendarExt3/issues"
+    "url": "https://github.com/yourusername/MMM-CalendarCustom/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MMRIZE/MMM-CalendarExt3.git"
+    "url": "git+https://github.com/yourusername/MMM-CalendarCustom.git"
   },
   "license": "MIT",
   "author": "eouia0819@gmail.com",
   "type": "commonjs",
-  "main": "MMM-CalendarExt3.js",
+  "main": "MMM-CalendarCustom.js",
   "scripts": {
-    "demo": "cd ../../ && MM_CONFIG_FILE=modules/MMM-CalendarExt3/demo.config.js node --run start:wayland:dev",
+    "demo": "cd ../../ && MM_CONFIG_FILE=modules/MMM-CalendarCustom/demo.config.js node --run start:wayland:dev",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
     "postinstall": "git submodule update --init --recursive",

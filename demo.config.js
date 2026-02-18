@@ -30,7 +30,7 @@ let config = {
           {
             // Static test calendar (Jan 2030) for testing maxEventLines behavior
             name: "MaxEventLines Test",
-            url: "http://localhost:8080/modules/MMM-CalendarExt3/test-calendar-static.ics",
+            url: "http://localhost:8080/modules/MMM-CalendarCustom/test-calendar-static.ics",
             symbol: "flask",
             color: "#00ccff"
           }
@@ -38,7 +38,7 @@ let config = {
       }
     },
     {
-      module: "MMM-CalendarExt3",
+      module: "MMM-CalendarCustom",
       position: "bottom_bar",
       header: "Week View - January 2026",
       config: {
@@ -56,7 +56,7 @@ let config = {
       }
     },
     {
-      module: "MMM-CalendarExt3",
+      module: "MMM-CalendarCustom",
       position: "top_right",
       header: "Month View - Current Month",
       config: {
