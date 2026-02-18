@@ -28,9 +28,7 @@ Module.register("MMM-CalendarCustom", {
       day: "numeric"
     },
     eventTimeOptions: {
-      hour: "numeric",
-      minute: "2-digit",
-      hour12: true
+      timeStyle: "short"
     },
     headerWeekDayOptions: {
       weekday: "long"
